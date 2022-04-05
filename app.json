@@ -1,6 +1,6 @@
 ﻿{
-    "name": "xray3",
-    "description": "xray websocket proxy on heroku",
+    "name": "yety",
+    "description": "yety",
     "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
     "env": {
         "AA": {
@@ -13,7 +13,7 @@
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/okijuyh/xray3/blob/master/etc/CADDYIndexPage.md",
-            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+            "value": "https://github.com/StartBootstrap/startbootstrap-new-age/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
@@ -32,7 +32,6 @@
             "value": "https://raw.githubusercontent.com/okijuyh/xray3/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/okijuyh/xray3",
-    "repository": "https://github.com/okijuyh/xray3",
+    "repository": "",
     "stack": "container"
 }
